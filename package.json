@@ -1,5 +1,5 @@
 {
-  "name": "grunt-nuget-install",
+  "name": "grunt-xdt-config-transformation",
   "description": "XDT Transformation Tool for Grunt",
   "version": "1.0.0",
   "main": "Gruntfile.js",
