@@ -1,0 +1,35 @@
+{
+  "name": "grunt-nuget-install",
+  "description": "XDT Transformation Tool for Grunt",
+  "version": "1.0.0",
+  "main": "Gruntfile.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kanema/grunt-xdt-config-transformation"
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "dargs": "~0.1.0",
+    "async": "~0.2.9"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt": "~0.4.2"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.2"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/kanema/grunt-xdt-config-transformation/issues"
+  },
+  "homepage": "https://github.com/kanema/grunt-xdt-config-transformation"
+}
