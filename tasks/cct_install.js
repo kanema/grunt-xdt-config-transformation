@@ -28,6 +28,8 @@ module.exports = function(grunt) {
 		
 		var args = [ctt_bin, 'source:"'+options.source+'"', 'transform:"'+options.transform+'"', 'destination:"'+options.destination+'"', 'pw'];
 		
+		var done = this.async();
+		
 		grunt.util.spawn({
 			cmd: args.shift(),
 			args: args,
@@ -37,6 +39,7 @@ module.exports = function(grunt) {
 		},
 		function (error, result, code) {
 			grunt.log.writeln('File "' + options.destination + '" created.');
+			done();
 		});
 	});
 
